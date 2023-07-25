@@ -15,7 +15,6 @@
             #minecraft {
                 text-align:center;
                 font-family:"Lucida Console",monospace;
-                background-color: #cfffcc ;
             }
             .center {
                 display:block;
@@ -29,10 +28,13 @@
             .div1 {
                 width: 200px;
                 height: 75px;
-                background: red;
+                background:#CD5959;
                 position: relative;
                 animation: mymove 2.25s infinite  forwards;
                 animation-iteration-count:1;
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
             }   
 
             @keyframes mymove {
@@ -42,10 +44,13 @@
             .div2  {
                 width: 200px;
                 height: 75px;
-                background: green;
+                background:#AAE75E;
                 position: relative;
                 animation: mymove 2.25s infinite  forwards;
                 animation-iteration-count:1;
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
             }   
 
             @keyframes mymove {
@@ -54,6 +59,20 @@
             }    
             h2 {
                 font-size:40px;
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            body {
+                background-image:url("background_website.jpg");
+                
+            }
+            p {
+                color:#F3F322;
+            }
+            background-image {
+                max-width: auto;
+                height: auto;
             }
 
 
@@ -64,7 +83,8 @@
         <h1 id="top-5">Top 5 <em>Most</em> Selling Video Games</h1>
         <div class="div2"><h2 id="game-name">1. Minecraft </h2></div>
         <a href="https://en.wikipedia.org/wiki/Minecraft"><img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" class="center"></a>
-        <p id="minecraft">Minecraft has amassed almost 240 million games sales over multiple platforms! It was released in 2011 by Mojang Studios and still gets millions of monthly players today.</p><br>
+        <p id="minecraft">Minecraft has amassed almost 240 million games sales over multiple platforms!
+            <br>It was released in 2011 by Mojang Studios and still gets millions of monthly players today.</p><br>
      <br>
      <br>
      <div class="div1"><h2 id="game-name">2. Grand Theft Auto V</h2></div>
